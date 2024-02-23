@@ -8,7 +8,7 @@ const firstWord = prompt("inserisci la prima parola");
 console.log(firstWord.length);
 
 const secondWord = prompt("inserisci la seconda parola");
-console.log(firstWord.length);
+console.log(secondWord.length);
 
 if(firstWord.leght > secondWord.lenght){
     console.log(firstWord);
