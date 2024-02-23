@@ -5,10 +5,16 @@ console.log('ciao')
  */
 
 const firstWord = prompt("inserisci la prima parola");
-console.log(firstWord.length);
+console.log(firstWord);
 
 const secondWord = prompt("inserisci la seconda parola");
-console.log(secondWord.length);
+console.log(typeof secondWord);
+
+if(firstWord == null){
+    location.reload()
+}else if(secondWord == null ){
+    location.reload()
+}
 
 if(firstWord.leght > secondWord.lenght){
     console.log(firstWord);
