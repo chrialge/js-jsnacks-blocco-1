@@ -5,6 +5,7 @@
 console.log("ciao");
 
 const nameUser = prompt("qualle il tuo nome");
+const body = document.querySelector('body')
 
 const listInvitation =[
     "giamarco",
@@ -25,7 +26,8 @@ for (let i = 0; i < listInvitation.length; i++) {
 }
 
 if(trovato==true){
-    alert('puoi partecipare')
+    body.innerHTML = "<h1>puoi partecipare alla festa🎉</h1>"
 }else{
-    alert('non puoi partecipare')
+    body.innerHTML = "<h1>non puoi partecipare alla festa ⚡</h1>"
+
 }
