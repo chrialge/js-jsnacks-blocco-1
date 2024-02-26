@@ -10,7 +10,6 @@ for (let i =0; i < lenght; i++){
     const element = sNumber[i]
     array.push(element)
     sum += Number(element)
+    console.log(array, sum);
 }
-console.log(array, sum);
-
 
